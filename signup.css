@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 70%;
+
+
+    text-align: center;
+    padding: 2%;
+    
+    border-radius: 0px;
+}
+
+/* Social Button Section */
+.social-btn-container{
+    height: 20%;
+
+    display: flex;
+    flex-flow: column;
+}
+.social-btn{
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+    padding: 5%;
+    height: 50%;
+}
+.social-icon-wrapper{
+    flex: 1;
+    height: 100%; 
+
+}
+.social-icon-wrapper> img{
+    /* width: 90%; */
+    height: 100%;
+}
+.social-text{
+    flex: 2;
+    font-size: auto;
+    
+}
+
+/* form Section */
+.manual-form{
+    
+}
+.form-container{
+    display: flex;
+    flex-flow: column;
+}
+
+.form-container > .form-control{
+    margin: 2% 0%;
+    width: 100%;
+    
+}
+
+.divider{
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #bfbfbf; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+}
+.divider > span{
+    background:#fff; 
+    padding:0 10px;
+}
+
+@media only screen and (min-width: 750px) {
+    main{
+        width: 60%;
+    }
+
+    .social-btn-container{
+        display: flex;
+        flex-flow: row;
+
+        height: 10%;
+    }
+    .social-btn{
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    main{
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    main{
+        width: 30%;
+    }
+}
