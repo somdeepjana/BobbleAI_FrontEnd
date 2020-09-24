@@ -15,7 +15,6 @@ body{
 main{
     width: 70%;
 
-
     text-align: center;
     padding: 2%;
     
@@ -37,25 +36,18 @@ main{
     padding: 5%;
     height: 50%;
 }
-.social-icon-wrapper{
+.social-icon{
     flex: 1;
-    height: 100%; 
-
-}
-.social-icon-wrapper> img{
-    /* width: 90%; */
     height: 100%;
 }
 .social-text{
     flex: 2;
     font-size: auto;
-    
+
+    margin-bottom: 0;
 }
 
 /* form Section */
-.manual-form{
-    
-}
 .form-container{
     display: flex;
     flex-flow: column;
@@ -92,6 +84,9 @@ main{
     }
     .social-btn{
         height: 100%;
+    }
+    .social-text{
+        font-size: .7rem;
     }
 }
 
