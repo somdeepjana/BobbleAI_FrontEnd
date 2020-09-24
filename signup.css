@@ -47,18 +47,7 @@ main{
     margin-bottom: 0;
 }
 
-/* form Section */
-.form-container{
-    display: flex;
-    flex-flow: column;
-}
-
-.form-container > .form-control{
-    margin: 2% 0%;
-    width: 100%;
-    
-}
-
+/* Form Dividing Section*/
 .divider{
     width: 100%; 
     text-align: center; 
@@ -71,7 +60,21 @@ main{
     padding:0 10px;
 }
 
+/* form Section */
+.form-container{
+    display: flex;
+    flex-flow: column;
+}
+
+.form-container > .form-control{
+    margin: 2% 0%;
+    width: 100%;
+    
+}
+
 @media only screen and (min-width: 750px) {
+    
+    /* adapting the card size */
     main{
         width: 60%;
     }
