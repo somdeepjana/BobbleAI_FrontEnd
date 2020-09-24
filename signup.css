@@ -6,10 +6,11 @@ body{
     width: 100vw;
     height: 100vh;
     
-    display: flex;
-    flex-flow: column;
+    display: grid;
+    /* flex-flow: column;
     justify-content: safe center;
-    align-items: safe center;
+    align-items: safe center; */
+    place-items: center center;
 }
 
 main{
@@ -30,18 +31,17 @@ main{
 }
 .social-btn{
     flex: 1;
-    display: flex;
-    align-items: center;
+    display: grid;
+    /* align-items: center; */
+    grid-template-columns: 1fr 2fr;
 
     padding: 5%;
     height: 50%;
 }
 .social-icon{
-    flex: 1;
     height: 100%;
 }
 .social-text{
-    flex: 2;
     font-size: auto;
 
     margin-bottom: 0;
