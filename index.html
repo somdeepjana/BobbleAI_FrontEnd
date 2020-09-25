@@ -1,7 +1,18 @@
+<!-- 
+#######[   Bobble.Ai FrontEnd Assignment Coloorlib Overhaul   ]###########
+#
+#	Created By Soomdeep Jana
+#	Github(soomdeepjana): https://github.com/somdeepjana/BobbleAI_FrontEnd/tree/Colorlib-Overhaul
+#
+#	Structure and Utility Provided by [Colorlib](https://colorlib.com/wp/template/login-form-v11/)
+#
+##########################################################################
+ -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Login V11</title>
+	<title>Sign Up</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -11,13 +22,15 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css"> -->
+<!--===============================================================================================-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
 <!--===============================================================================================-->	
-	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css"> -->
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css"> -->
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
@@ -26,12 +39,23 @@
 <body>
 	
 	<div class="limiter">
+		<div class="wrap-login100 text-center" style="width: 100%;"><img src="https://www.bobble.ai/images/logo-final.90632640.png" alt=""></div>
 		<div class="container-login100">
-			<div class="wrap-login100 p-l-50 p-r-50 p-t-77 p-b-30">
-				<form class="login100-form validate-form">
-					<span class="login100-form-title p-b-55">
-						Login
-					</span>
+			<!-- <div class="wrap-login100 w-full text-center m-b-30"><img src="https://www.bobble.ai/images/logo-final.90632640.png" alt=""></div> -->
+			<div class="wrap-login100 p-l-50 p-r-50 p-t-30 p-b-30">
+				<div class="w-full text-center p-b-30" style="font-weight:500;">
+					SIGN UP
+				</div>
+
+				<span class="login100-form-title p-b-22">
+					Create your account
+				</span>
+
+				<div class="text-center w-full p-b-22">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				</div>
+
+				<form class="login100-form validate-form" action="https://reqres.in/api/register" method="POST">
 
 					<a href="#" class="btn-google m-b-10">
 						<img src="images/icons/icon-google.png" alt="GOOGLE">
@@ -67,7 +91,7 @@
 					</div>
 
 					<div class="wrap-input100 validate-input m-b-16" data-validate = "Password is required">
-						<input class="input100" type="password" name="pass" placeholder="Password">
+						<input class="input100" type="password" name="password" placeholder="Password">
 						<span class="focus-input100"></span>
 					</div>
 					
