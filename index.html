@@ -1,70 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <!-- Google Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-    <!-- Bootstrap core CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="signup.css">
-
-
-    <title>Sign Up</title>
+	<title>Login V11</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
 </head>
 <body>
-    <header>
-        <img src="https://www.bobble.ai/images/logo-final.90632640.png" alt="">
-    </header>
-    <main class="card">
-        <p class="">SIGN UP</p>
-        <div class="">
-            <h1 class="card-title">Create your account</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100 p-l-50 p-r-50 p-t-77 p-b-30">
+				<form class="login100-form validate-form">
+					<span class="login100-form-title p-b-55">
+						Login
+					</span>
 
-        <!-- Social Media Login Buttons -->
-        <div class="social-btn-container">
-            <div class="social-btn btn">
-                <img class="social-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="">
-                <p class="social-text">Sign in with google</p>
-            </div>
-            
-            <div class="social-btn btn">
-                <img class="social-icon" src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Facebook_logo_36x36.svg" alt="">
-                <p class="social-text">Sign up with Facebook</p>
-            </div>
-        </div>
-        <p class="divider"><span>or</span></p>
+					<a href="#" class="btn-google m-b-10">
+						<img src="images/icons/icon-google.png" alt="GOOGLE">
+						Google
+					</a>
 
-        <!-- custom Registration form -->
-        <section class="manual-form">
-            <form action="https://reqres.in/api/register" method="post" class="form-container border-light">
-                <input type="text" name="fname" placeholder="First Name" class="form-control" required>
-                <input type="text" name="lname" placeholder="Last Name" class="form-control" required>
-                <input type="email" name="email" placeholder="Email Address" class="form-control" required>
-                <input type="password" name="password" placeholder="Password" class="form-control" required>
-                <label class="form-text">
-                    By clicking Sign Up, you agree to our <a href="http://" target="_blank">Terms of Use</a> and our <a href="http://" target="_blank">Privacy Policy</a>
-                </label>
-                <input type="submit" value="signup" class="btn btn-primary btn-block">
-            </form>
-        </section>
-    </main>
+					<a href="#" class="btn-face m-b-10">
+						<i class="fa fa-facebook-official"></i>
+						Facebook
+					</a>
 
-    <!-- JQuery -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+					<!-- <div class="text-center w-full p-t-22 p-b-22">
+						<span class="txt1">
+							Or
+						</span>
+					</div> -->
+
+					<p class="divider"><span>or</span></p>
+
+					<div class="wrap-input100 validate-input m-b-16" data-validate = "Valid First Name is required: Steve Jobs">
+						<input class="input100" type="text" name="fname" placeholder="First Name">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-16" data-validate = "Valid Last Name is required: Steve Jobs">
+						<input class="input100" type="text" name="lname" placeholder="Last Name">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-16" data-validate = "Valid email is required: ex@abc.xyz">
+						<input class="input100" type="text" name="email" placeholder="Email">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-16" data-validate = "Password is required">
+						<input class="input100" type="password" name="pass" placeholder="Password">
+						<span class="focus-input100"></span>
+					</div>
+					
+					<div class="text-center w-full">
+						<span class="">
+							By clicking Sign Up, you agree to our
+						</span>
+
+						<a class="bo1 hov1" href="#" style="color: #007bff;">
+							Terms of Use 						
+						</a>
+
+						<span class="">
+							and our
+						</span>
+
+						<a class="bo1 hov1" href="#" style="color: #007bff;">
+							Privacy Policy						
+						</a>
+					</div>
+
+					<div class="container-login100-form-btn p-t-25">
+						<button class="login100-form-btn">
+							Sign Up
+						</button>
+					</div>
+
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	
+
+	
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
 </body>
 </html>
